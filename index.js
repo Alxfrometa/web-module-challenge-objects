@@ -14,6 +14,7 @@ The function should:
   
   Example createMenuItem('tacos', 8, 'Lunch') should return {name: 'tacos', price: 8, category: 'Lunch'}
 */
+
 function createMenuItem(name, price, category){
   return {"name": name, "price": price, "category": category};
 }
@@ -27,9 +28,7 @@ Test your createMenuItems function by doing the following:
   
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
 */
-createMenuItem("pizza",5,"lunch");
-createMenuItem('tacos', 8, 'Lunch');
-createMenuItem('cake', 4, 'dessert');
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
